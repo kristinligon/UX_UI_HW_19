@@ -1,0 +1,371 @@
+/*current issues: 
+n/a*/
+
+body{
+    background-color: white;
+    font-family: "Lato', sans-serif";
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    background-color: white;
+    height: 288px;
+    max-height: 288px;
+    background-position: center;
+    width: 100%;
+}
+
+.Logo {
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom:auto 0;
+    width: 150px;
+    height: 100px;
+}
+
+.topnavbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: auto;
+    width: 100%;
+}
+
+.donatebutton {
+    flex-direction: row;
+    background-color: #396A4A;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.donatebutton h2 {
+    margin-top: -3px;
+    color: white;
+    text-align: center;
+    padding: 9px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.searchbutton {
+    background-color: #396A4A;
+    height:35px;
+    width:35px;
+    border-radius: 5px;
+}
+
+.searchbutton img {
+    height:25px;
+    width: 25px;
+    padding: 5px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #E5F2E6;
+    width: 100%;
+    padding-top: 10px;
+    height:20px;
+    max-height:20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+.navbarbuttons{
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.item1 , .item2 , .item3 , .item4 , .item5{
+    color: black;
+    margin: 75px;
+}
+
+.volunteertitle{
+    color: #396A4A;
+    font-weight: 800;
+    font-size: 65px;
+    display: inline;
+    padding: 5%;
+}
+
+.main{
+    width: 75%;
+}
+
+.main img{
+    width: 1375px;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: none;
+    margin-left: 15px;
+}
+
+.main p{
+    color: black;
+    font-weight: 400; 
+    font-size: 20px;
+    display: center;
+    margin-left: 5%;
+}
+
+.volunteerlinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 25px;
+    text-align: center;
+}
+
+.volunteerlinks h3{
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    background-color:#396A4A;
+    padding: 25px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.rampbuilding {
+    font-size: 20px;
+    padding-left: 30px;
+    /*display: flex*/
+}
+
+.rampbuilding p{
+    color: black;
+    font-weight: 400; 
+    font-size: 15px;
+    display: center;
+    margin-left: 5%;
+    /*font-size: 15px;
+    padding: 30px;
+    margin-left: 5%;
+    justify-content: space-between;*/
+}
+
+.otheropportunities{
+    font-size: 25px;
+    padding-left: 30px;
+}
+
+p .otheropportunities p{
+    font-size: 15px;
+    margin-left: 5%;
+    /*padding: 30px;
+    margin-bottom: 50px;*/
+    /*justify-content: space-between;*/
+}
+
+.newsletter{
+    background-color:#F0F2E8;
+    width: 1050px;
+    padding: 5px;
+    margin:auto;
+    margin-top: 50px;
+}
+
+.newsletter h2{
+    font-size: 25px;
+    font-weight: 800;
+    text-align:center;
+}
+
+.newsletter a{
+    color:#396A4A;
+}
+
+.line1{
+   color: #396A4A;
+   font-weight:400;
+   font-size:19px;
+   text-align: center;
+   margin-bottom: -20px;
+}
+
+.line2{
+    color: #396A4A;
+    font-weight:400;
+    font-size:19px;
+    text-align:center;
+ }
+
+.newsletter2{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 1060px;
+}
+
+form{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    /*margin-left: 350px;
+    margin-bottom: 15px;*/
+}
+
+.emailaddress{
+    font-size: 15px;
+    color: black;
+    background-color:#F0F2E8;
+    align-items: center;
+    padding: 25px;
+}
+
+#emailaddress{
+    font-size: 15px;
+    height: 35px;
+    padding-right: 25%;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.signupbutton{
+    font-size: 400;
+    color: #F7EDDA;
+    background-color:#396A4A;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.signupbutton h4{
+    font-size: 15px;
+    text-align: center;
+    float: center;
+    display: inline;
+}
+
+footer{
+    display: flex;
+    background-color: #396A4A;
+    height: 180px;
+    width: 100%;
+    padding:10px;
+    margin-top:20px;
+    align-items: center;
+}
+
+.q1 , .q2 , .q3contactus , .q4map , .q5{
+    width: 15%;
+    margin-left: 55px
+}
+
+.q1 h2{
+    font-size: 15px;
+    font-weight:800;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.q1 p{
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    width: 80px;
+    padding-left: 15px;
+    padding-right:15px;
+}
+
+.q2 img{
+    display: right;
+    margin-left: -10; 
+    margin-right: 10;
+    width: 100px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
+
+.q3contactus h3{
+    font-size: 15px;
+    font-weight:900;
+    color: white;
+    margin: -5px;
+}
+
+.q3contactus p{
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    padding-top: 5px;
+}
+
+.social-media-icons img{
+    margin-left: -10px;
+    margin-right: auto;
+    height: 25px;
+    max-height: 25px;
+    width: 25px;
+    max-width: 25px;
+    padding: 10px;
+}
+
+.q4map h3{
+    font-size: 15px;
+    font-weight:900;
+    color: white;   
+}
+
+.q4map img{
+    display: right;
+    margin-left: -10;
+    margin-right: -10;
+    margin-bottom: none;
+    width: 100px;
+    height: 100px;
+    padding-bottom: 5px;
+}
+
+.q5 p{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.q5 a{
+    color: white;
+}
+
+.copyrighttext{
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+
+/*@media all (min-width: 600px) {
+}
+    .topnavbar{
+    width: 100%;
+}
+
+    .navbar{
+    width: 100%;
+}
+
+    .navbarbuttons{
+    width: 100%;
+} 
+
+    .main img{
+    width: 100%;
+}
+}
