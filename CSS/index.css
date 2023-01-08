@@ -87,6 +87,10 @@ header{
     color: white;
 }
 
+/*.navbarbuttonshover{
+    background-color: #396A4A;
+}*/
+
 .item1 , .item2 , .item3 , .item4 , .item5{
     color: black;
     margin: 75px;
